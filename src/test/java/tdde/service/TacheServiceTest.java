@@ -1,7 +1,9 @@
-package com.demo.tdd.service;
+package tdde.service;
 
-import com.demo.tdd.domain.Tache;
-import com.demo.tdd.domain.TacheRepository;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import tdde.domain.Tache;
+import tdde.domain.TacheRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +15,7 @@ import static org.mockito.BDDMockito.given;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TacheServiceTest {
+
 
     @Mock
     private TacheRepository TacheRepository;

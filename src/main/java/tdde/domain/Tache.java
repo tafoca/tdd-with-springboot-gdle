@@ -1,4 +1,4 @@
-package com.demo.tdd.domain;
+package tdde.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
